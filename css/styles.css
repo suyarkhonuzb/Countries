@@ -3,6 +3,7 @@
     --body-bg:#fafafa;
     --text-color:#111517;
     --element-bg:#fff;
+    --form-text-color:#848484;
 }
 
 html{
@@ -34,6 +35,11 @@ body{
     --element-bg: #2b3844;
 }
 
+.main-content {
+    flex-grow: 1;
+}
+
+
 /* CONTAINER */
 .container{
     width: 100%;
@@ -54,6 +60,7 @@ a{
     margin-bottom: 48px;
     padding: 30px 80px;
     background-color: var(--element-bg);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
 }
 
 .header-container {
@@ -103,4 +110,48 @@ a{
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
+}
+
+/* FORM-SEARCH */
+
+.form-container {
+    margin-top: 0;
+    margin-bottom: 48px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-search-input {
+    display: inline-flex;
+    padding: 18px 270px 18px 32px;
+    font-size: 14px;
+    line-height: 1.44;
+    font-weight: 400;
+    color: var(--form-text-color);
+    background-color: var(--element-bg);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+}
+
+.form-search-input::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/search.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.form-select{
+    padding: 18px 77px 18px 24px;
+    font-size: 14px;
+    line-height: 1.42;
+    font-weight: 400;
 }
