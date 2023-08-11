@@ -1,7 +1,8 @@
 /* GLOBAL */
 :root{
-    --body-bg:#fff;
-    --text-color:#222;
+    --body-bg:#fafafa;
+    --text-color:#111517;
+    --element-bg:#fff;
 }
 
 html{
@@ -25,10 +26,16 @@ body{
     box-sizing: inherit;
 }
 
+.dark-mode{
+    --body-bg: #202c36;
+    --text-color: #fff;
+    --element-bg: #2b3844;
+}
+
 /* CONTAINER */
 .container{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1320px;
     padding-right: 20px;
     padding-left: 20px;
     margin-right: auto;
