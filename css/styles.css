@@ -17,9 +17,11 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: 'Roboto', 'Arial',  sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Nunito Sans', 'Arial',  sans-serif;
+    color: var(--text-color);
+    background-color: var(--body-bg);
 }
 
 *, *::before, *::after{
@@ -40,4 +42,65 @@ body{
     padding-left: 20px;
     margin-right: auto;
     margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+.header {
+    margin-top: 0;
+    margin-bottom: 48px;
+    padding: 30px 80px;
+    background-color: var(--element-bg);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header-logo-link {
+    margin-top: 0;
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.site-header-logo-link:hover{
+    opacity: 0.8;
+}
+
+.site-header-logo-link:active{
+    opacity: 0.6;
+}
+
+.button-dark-toggle {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-dark-toggle:hover{
+    opacity: 0.8;
+}
+
+.button-dark-toggle:active{
+    opacity: 0.6;
+}
+
+.button-dark-toggle-icon {
+    margin-right: 8px;
+}
+
+.button-dark-toggle-text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
 }
