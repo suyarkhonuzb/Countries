@@ -227,10 +227,9 @@ a{
 
 .country-details-title {
     font-weight: 600;
-    margin-right: 0;
 }
 
 .country-details-value {
     font-weight: 300;
-    margin-left:10px;
+    margin-left:4px;
 }
