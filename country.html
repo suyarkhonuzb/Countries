@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,800&display=swap" rel="stylesheet">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/necolas.github.io_normalize.css_8.0.1_normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>   
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="site-header-logo-link">Where in the world?</a>
+            <button type="button" class="button-dark-toggle">
+                <span class="button-dark-toggle-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5532 13.815C9.66857 13.815 6.51929 10.9278 6.51929 7.36821C6.51929 6.0253 6.96679 4.78158 7.73143 3.75C4.69036 4.69515 2.5 7.33122 2.5 10.4381C2.5 14.3385 5.94929 17.5 10.2036 17.5C13.5929 17.5 16.4696 15.4932 17.5 12.7045C16.375 13.4048 15.0161 13.815 13.5532 13.815Z" fill="white" stroke="currentColor" stroke-width="1.25"/>
+                      </svg>
+                </span>
+                <span class="button-dark-toggle-text">Dark Mode</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN-CONTENT -->
+    <main class="main-content main-content-country">
+        <div class="container">
+            <a class="country-page-back-wrapper" href="index.html">
+                <span class="country-page-back-icon">
+                    <img src="img/back.svg">
+                </span>
+                <span class="country-page-text">Back</span>
+            </a>
+
+            <!-- COUNTRY-PAGE -->
+            <section class="country-page">
+                <img class="country-page-img" src="img/Belgium.jpg" alt="Belgium-flag" width="560" height="400" srcset="img/Belgium.jpg 1x, img/Belgium@2x.jpg 2x">
+                <div class="country-page-info-wrapper">
+                    <h2 class="country-page-info-heading">Belgium</h2>
+                    <div class="country-info-inner">
+                        <dl class="country-details country-page-details">
+                            <div class="country-details-item country-page-details-item">
+                                <dt class="country-details-title">Native Name:</dt>
+                                <dd class="country-details-value">Belgie</dd>
+                            </div>
+                            <div class="country-details-item country-page-details-item">
+                                <dt class="country-details-title">Population:</dt>
+                                <dd class="country-details-value">11,319,511</dd>
+                            </div>
+                            <div class="country-details-item country-page-details-item">
+                                <dt class="country-details-title">Region:</dt>
+                                <dd class="country-details-value">Europe</dd>
+                            </div>
+                            <div class="country-details-item country-page-details-item">
+                                <dt class="country-details-title">Sub Region:</dt>
+                                <dd class="country-details-value">Western Europe</dd>
+                            </div>
+                            <div class="country-details-item country-page-details-item">
+                                <dt class="country-details-title">Capital:</dt>
+                                <dd class="country-details-value">Brussels</dd>
+                            </div>
+                        </dl>
+                        <dl class="country-details country-page-details">
+                            <div class="country-details-item country-page-details-item">
+                                <dt class="country-details-title">Top Level Domain:</dt>
+                                <dd class="country-details-value">.be</dd>
+                            </div>
+                            <div class="country-details-item country-page-details-item">
+                                <dt class="country-details-title">Currencies:</dt>
+                                <dd class="country-details-value">Euro</dd>
+                            </div>
+                            <div class="country-details-item country-page-details-item">
+                                <dt class="country-details-title">Languages:</dt>
+                                <dd class="country-details-value">Dutch, French, German</dd>
+                            </div>
+                        </dl>
+                    </div>
+                    <div class="border-countries">
+                        <h3 class="border-country-heading">Border Countries:</h3>
+                        <a class="border-country-link" href="#">France</a>
+                        <a class="border-country-link" href="#">Germany</a>
+                        <a class="border-country-link" href="#">Netherlands</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>

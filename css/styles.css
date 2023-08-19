@@ -46,7 +46,9 @@ body{
 
 }
 
-
+.main-content-country{
+    padding-top: 80px;
+}
 /* CONTAINER */
 .container{
     width: 100%;
@@ -202,6 +204,18 @@ a{
     background-color: var(--element-bg);
 }
 
+.country-item-link{
+    color: var(--text-color);
+}
+
+.country-item-link:hover{
+    opacity: 0.8;
+}
+
+.country-item-link:active{
+    opacity: 0.6;
+}
+
 .country-item-heading {
     margin-top: 0;
     margin-bottom: 16px;
@@ -232,4 +246,113 @@ a{
 .country-details-value {
     font-weight: 300;
     margin-left:4px;
+}
+
+
+/* COUNTRY-PAGE */
+.country-page-back-wrapper {
+    display: inline-flex;
+    padding: 10px 40px;
+    border-radius: 6px;
+    box-shadow:  0 0 7px 0px rgba(0, 0, 0, 0.3);
+}
+
+.country-page-back-wrapper:hover{
+    opacity: 0.8;
+}
+
+.country-page-back-wrapper:active{
+    opacity: 0.6;
+}
+
+.country-page-back-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    color: var(--text-color);
+}
+
+.country-page-text {
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+.country-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.country-page-img {
+    width: 560px;
+    height: 400px;
+    margin-right: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.country-page-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.country-page-info-heading {
+    margin-top: 0;
+    margin-bottom: 23px;
+    align-self: start;
+    font-size: 32px;
+    line-height: normal;
+    font-weight: 800;
+}
+
+.country-info-inner {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.country-page-details{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 68px;
+}
+
+.country-page-details-item:not(:last-child){
+    margin-right: 141px;
+}
+
+
+/* BORDER-COUNTRIES */
+.border-countries {
+    display: flex;
+    justify-content: start;
+    margin-top: 0;
+}
+
+.border-country-heading {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.border-country-link {
+    display: flex;
+    align-items: center;
+    padding: 4px 27px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    border: 0px  solid #979797;
+    border-radius: 2px;
+    color: var(--text-color);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.10);
+}
+
+.border-country-link:not(:last-child){
+    margin-right: 10px;
 }
