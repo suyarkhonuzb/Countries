@@ -311,6 +311,7 @@ a{
 
 .country-info-inner {
     display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
 }
@@ -321,15 +322,11 @@ a{
     margin-bottom: 68px;
 }
 
-.country-page-details-item:not(:last-child){
-    margin-right: 141px;
-}
-
-
 /* BORDER-COUNTRIES */
 .border-countries {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 0;
 }
 
