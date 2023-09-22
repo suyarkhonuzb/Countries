@@ -131,9 +131,23 @@ a{
     margin-bottom: 48px;
 }
 
+.form-search-field{
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    top: 19px;
+    left: 32px;
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+    color: var(--text-color);
+}
+
 .form-search-input {
     min-width: 480px;
-    padding: 18px 32px;
+    padding: 18px 74px;
     font-size: 14px;
     line-height: 1.44;
     font-weight: 400;
